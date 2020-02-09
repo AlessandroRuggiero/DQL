@@ -2,7 +2,7 @@ import gym
 from agent import Agent
 from tqdm import tqdm
 import numpy as np
-env = gym.make('Acrobot-v1')
+env = gym.make('LunarLander-v2')
 env.reset ()
 new_state, reward, done,_ = env.step (0)
 observation_space = new_state.shape
